@@ -172,17 +172,24 @@ upgrades = {
 	}
 	
 	#NSB Additions
+	Train_armour_upgrade = {
+		max_level = 100
+
+		cost = land
+		armor_value = 0.05
+	}
 	RW_ART_attack_upgrade = {
-		max_level = 99
+		max_level = 100
 		
 		cost = land
 		railway_gun_attack = 0.05
+		reliability = -0.05
 	}
 	RW_ART_reliability_upgrade = {
-		max_level = 99
+		max_level = 100
 		
 		cost = land
-		reliability = 0.05
+		reliability = 0.075
 	}
 	RW_ART_engine_upgrade = {
 		max_level = 99

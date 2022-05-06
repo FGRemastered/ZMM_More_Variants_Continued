@@ -8,59 +8,29 @@
 	# light_tank_aa_chassis = {
 		# archetype = light_tank_chassis
 		# type = { armor anti_air }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_aa_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# # For each duplicated equipment type (excluding the archetype), set variant_name by taking what would be
 			# # used as the localization key (the name of the type) and run a find-and-replace on it.
 			# # Example: light_tank_aa_chassis_1 gets variant_name light_tank_aa_equipment_1.
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
 			# hardness = { set = 0.5 }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_aa_upgrade" } }
 		# }
 	# }
 
 	# light_tank_artillery_chassis = {
 		# archetype = light_tank_chassis
 		# type = { armor artillery }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_art_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
 			# hardness = { set = 0.5 }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_art_upgrade" } }
 		# }
 	# }
 
 	# light_tank_destroyer_chassis = {
 		# archetype = light_tank_chassis
 		# type = { armor anti_tank }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_at_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_at_upgrade" } }
 		# }
 	# }
 
@@ -77,16 +47,8 @@
 	# light_tank_flame_chassis = {
 		# archetype = light_tank_chassis
 		# type = { armor flame }
-		# # upgrades = {
-			# # tank_reliability_upgrade
-			# # tank_engine_upgrade
-			# # tank_armor_upgrade
-			# # tank_art_upgrade
-			# # ZMM_LAND_prod_upgrade
-		# # }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_art_upgrade" } }
 		# }
 	# }
 
@@ -95,56 +57,26 @@
 	# medium_tank_aa_chassis = {
 		# archetype = medium_tank_chassis
 		# type = { armor anti_air }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_aa_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
 			# hardness = { set = 0.65 }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_aa_upgrade" } }
 		# }
 	# }
 
 	# medium_tank_artillery_chassis = {
 		# archetype = medium_tank_chassis
 		# type = { armor artillery }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_art_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
 			# hardness = { set = 0.65 }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_art_upgrade" } }
 		# }
 	# }
 
 	# medium_tank_destroyer_chassis = {
 		# archetype = medium_tank_chassis
 		# type = { armor anti_tank }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_at_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_at_upgrade" } }
 		# }
 	# }
 
@@ -161,16 +93,8 @@
 	# medium_tank_flame_chassis = {
 		# archetype = medium_tank_chassis
 		# type = { armor flame }
-		# # upgrades = {
-			# # tank_reliability_upgrade
-			# # tank_engine_upgrade
-			# # tank_armor_upgrade
-			# # tank_art_upgrade
-			# # ZMM_LAND_prod_upgrade
-		# # }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_art_upgrade" } }
 		# }
 	# }
 
@@ -179,56 +103,26 @@
 	# heavy_tank_aa_chassis = {
 		# archetype = heavy_tank_chassis
 		# type = { armor anti_air }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_aa_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
 			# hardness = { set = 0.8 }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_aa_upgrade" } }
 		# }
 	# }
 
 	# heavy_tank_artillery_chassis = {
 		# archetype = heavy_tank_chassis
 		# type = { armor artillery }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_art_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
 			# hardness = { set = 0.8 }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_art_upgrade" } }
 		# }
 	# }
 
 	# heavy_tank_destroyer_chassis = {
 		# archetype = heavy_tank_chassis
 		# type = { armor anti_tank }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_at_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_at_upgrade" } }
 		# }
 	# }
 
@@ -245,16 +139,8 @@
 	# heavy_tank_flame_chassis = {
 		# archetype = heavy_tank_chassis
 		# type = { armor flame }
-		# # upgrades = {
-			# # tank_reliability_upgrade
-			# # tank_engine_upgrade
-			# # tank_armor_upgrade
-			# # tank_art_upgrade
-			# # ZMM_LAND_prod_upgrade
-		# # }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_art_upgrade" } }
 		# }
 	# }
 
@@ -263,56 +149,26 @@
 	# super_heavy_tank_aa_chassis = {
 		# archetype = super_heavy_tank_chassis
 		# type = { armor anti_air }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_aa_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
 			# hardness = { set = 0.9 }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_aa_upgrade" } }
 		# }
 	# }
 
 	# super_heavy_tank_artillery_chassis = {
 		# archetype = super_heavy_tank_chassis
 		# type = { armor artillery }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_art_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
 			# hardness = { set = 0.9 }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_art_upgrade" } }
 		# }
 	# }
 
 	# super_heavy_tank_destroyer_chassis = {
 		# archetype = super_heavy_tank_chassis
 		# type = { armor anti_tank }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_at_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_at_upgrade" } }
 		# }
 	# }
 
@@ -321,61 +177,32 @@
 	# modern_tank_aa_chassis = {
 		# archetype = modern_tank_chassis
 		# type = { armor anti_air }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_aa_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
 			# hardness = { set = 0.85 }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_aa_upgrade" } }
 		# }
 	# }
 
 	# modern_tank_artillery_chassis = {
 		# archetype = modern_tank_chassis
 		# type = { armor artillery }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_art_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
 			# hardness = { set = 0.85 }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_art_upgrade" } }
 		# }
 	# }
 
 	# modern_tank_destroyer_chassis = {
 		# archetype = modern_tank_chassis
 		# type = { armor anti_tank }
-		# upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_armor_upgrade
-			# tank_reliability_upgrade
-			# tank_engine_upgrade
-			# tank_armor_upgrade
-			# tank_at_upgrade
-			# ZMM_LAND_prod_upgrade
-		# }
 		# for_each = {
 			# variant_name = { find_and_replace = { "chassis" "equipment" } }
-			# # upgrades = { find_and_replace = { "tank_gun_upgrade" "tank_at_upgrade" } }
 		# }
 	# }
 # }
 
-equipments = {
+equipments = 
+{
 
 	gw_tank_equipment = {
 		year = 1914
@@ -383,6 +210,11 @@ equipments = {
 		archetype = light_tank_chassis
 		priority = 5
 		visual_level = 0
+		is_convertable = yes
+		can_convert_from = 
+		{
+			gw_tank_equipment
+		}
 		
 		upgrades = {
 			tank_reliability_upgrade

@@ -97,7 +97,7 @@ sub_units = {
 		active = yes
 		type = { tactical_bomber scout_plane }
 		need = { jet_tac_bomber_equipment = 1 }
-		categories = { category_tac_bomber }
+		categories = { category_tac_bomber category_scout_plane }
 	}
 
 

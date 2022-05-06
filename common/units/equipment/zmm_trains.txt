@@ -13,8 +13,8 @@ equipments = {
 
 		interface_category = interface_category_land
 		upgrades = {
-			SUPP_reliability_upgrade
-			SUPP_prod_upgrade
+			Train_armour_upgrade
+			Train_prod_upgrade
 		}
 		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
 		
@@ -35,7 +35,7 @@ equipments = {
 		{
 			train_equipment_1
 		}
-		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+		armor_value = 10 # HP = BASE_TRAIN_HP + armor_value
 
 		priority = 10
 
@@ -59,6 +59,7 @@ equipments = {
 			train_equipment_1
 			train_equipment_2
 		}
+		armor_value = 5 # HP = BASE_TRAIN_HP + armor_value
 		build_cost_ic = 50
 		resources = {
 			steel = 1
