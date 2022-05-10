@@ -197,4 +197,10 @@ upgrades = {
 		cost = land
 		maximum_speed = 0.05
 	}
+	# RW_ART_range_upgrade = {
+		# max_level = 99
+		
+		# cost = land
+		# range = 0.05
+	# }
 }

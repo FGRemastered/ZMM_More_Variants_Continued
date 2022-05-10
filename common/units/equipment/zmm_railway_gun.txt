@@ -13,6 +13,7 @@ equipments = {
 			RW_ART_attack_upgrade
 			RW_ART_engine_upgrade
 			RW_ART_reliability_upgrade
+			# RW_ART_range_upgrade
 			RW_ART_prod_upgrade
 		}
 		active = yes

@@ -2,7 +2,7 @@
 
 
 guiTypes = {
-
+	# UPGRADE WINDOW
 	containerWindowType = {
 		name = "equipment_upgrade_designer_window"
 		position = { x=-150 y=-250}	
@@ -105,7 +105,7 @@ guiTypes = {
 			clicksound = click_default
 		}
 	}
-	
+	# LAND UPGRADES
 	containerWindowType = {
 		name = "land_equipment_designer_view"
 		size = { width=100% height=100% }
@@ -122,7 +122,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "tank_armor_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -173,7 +173,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "tank_reliability_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -223,7 +223,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "tank_gun_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -273,7 +273,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "mech_cost_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -323,7 +323,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "tank_art_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -373,7 +373,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "tank_at_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -423,7 +423,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "tank_aa_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -473,7 +473,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "tank_engine_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -524,7 +524,7 @@ guiTypes = {
 		#modify1
 		containerWindowType = {
 			name = "INF_reliability_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -575,7 +575,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "INF_SA_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -625,7 +625,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "INF_HA_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -675,7 +675,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "INF_defence_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -725,7 +725,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "INF_prod_upgrade"
-			position = { x = 220 y = 110 }
+			position = { x = 220 y = 110 } # Center Bottom
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -770,7 +770,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ART_reliability_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -814,7 +814,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "ART_SA_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -858,7 +858,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ART_HA_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -902,7 +902,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ART_defence_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -946,7 +946,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ART_prod_upgrade"
-			position = { x = 220 y = 110 }
+			position = { x = 220 y = 110 } # Center Bottom
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -990,7 +990,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "AT_reliability_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1034,7 +1034,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "AT_pierce_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1078,7 +1078,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "AT_HA_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -1122,7 +1122,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "AT_defence_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1166,7 +1166,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "AT_prod_upgrade"
-			position = { x = 220 y = 110 }
+			position = { x = 220 y = 110 } # Center Bottom
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1210,7 +1210,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "AA_reliability_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1254,7 +1254,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "AA_AA_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1298,7 +1298,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "AA_HA_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -1342,7 +1342,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "AA_defence_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1386,7 +1386,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "AA_prod_upgrade"
-			position = { x = 220 y = 110 }
+			position = { x = 220 y = 110 } # Center Bottom
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1430,7 +1430,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "MOT_reliability_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1474,7 +1474,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "MOT_speed_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1518,7 +1518,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "MOT_hardness_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -1562,7 +1562,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "MOT_prod_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1650,7 +1650,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "MECH_prod_upgrade"
-			position = { x = 220 y = 110 }
+			position = { x = 220 y = 110 } # Center Bottom
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1694,7 +1694,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "SUPP_reliability_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1738,7 +1738,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "SUPP_prod_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1782,7 +1782,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ZMM_LAND_prod_upgrade"
-			position = { x = 220 y = 110 }
+			position = { x = 220 y = 110 } # Center Bottom
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1826,7 +1826,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "Train_armour_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1870,7 +1870,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "Train_prod_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1914,7 +1914,107 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ac_engine_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
+			}
+			
+			iconType = {
+				name = "line04"	
+				position = { x=-112 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomright"
+			}
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		# containerWindowType = {
+			# name = "RW_ART_range_upgrade"
+			# position = { x = 30 y = 30 } # Top Left
+			# size = { width=100 height=60 }
+			# clipping = no
+
+			# iconType = {
+				# name = "Background"	
+				# position = { x=18 y=32 }				
+				# spriteType ="GFX_variant_entry_bg"
+			# }
+			
+			# iconType = {
+				# name = "line01"	
+				# position = { x=102 y=44 }				
+				# spriteType ="GFX_unit_details_line_topleft"
+				# orientation = "UPPER_LEFT"
+			# }	
+
+			# instantTextboxType = {
+				# name = "label"
+				# position = { x = -27 y = 7 }
+				# font = "hoi_18mbs"
+				# maxWidth = 160
+				# maxHeight = 20
+				# format = centre
+			# }
+			
+			# buttonType = {
+				# name = "decrease_level"
+				# quadTextureSprite ="GFX_naval_decrease_amount"
+				# position = { x = 6 y = 30 }
+				# clicksound = click_default
+			# }
+			
+			# instantTextboxType = {
+				# name = "level"
+				# position = { x = 50 y = 38 }
+				# font = "hoi_18mbs"
+				# maxWidth = 20
+				# maxHeight = 20
+			# }
+			
+			# buttonType = {
+				# name = "increase_level"
+				# quadTextureSprite ="GFX_naval_increase_amount"
+				# position = { x = 68 y = 30 }
+				# clicksound = click_default
+			# }
+		# }
+
+		containerWindowType = {
+			name = "RW_ART_reliability_upgrade"
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -1963,109 +2063,8 @@ guiTypes = {
 		}
 		
 		containerWindowType = {
-			name = "RW_ART_prod_upgrade"
-			position = { x = 30 y = 30 }
-			size = { width=100 height=60 }
-			clipping = no
-
-			iconType = {
-				name = "Background"	
-				position = { x=18 y=32 }				
-				spriteType ="GFX_variant_entry_bg"
-			}
-			
-			iconType = {
-				name = "line01"	
-				position = { x=102 y=44 }				
-				spriteType ="GFX_unit_details_line_topleft"
-				orientation = "UPPER_LEFT"
-			}	
-
-			instantTextboxType = {
-				name = "label"
-				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
-				maxWidth = 160
-				maxHeight = 20
-				format = centre
-			}
-			
-			buttonType = {
-				name = "decrease_level"
-				quadTextureSprite ="GFX_naval_decrease_amount"
-				position = { x = 6 y = 30 }
-				clicksound = click_default
-			}
-			
-			instantTextboxType = {
-				name = "level"
-				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
-				maxWidth = 20
-				maxHeight = 20
-			}
-			
-			buttonType = {
-				name = "increase_level"
-				quadTextureSprite ="GFX_naval_increase_amount"
-				position = { x = 68 y = 30 }
-				clicksound = click_default
-			}
-		}
-
-		containerWindowType = {
-			name = "RW_ART_reliability_upgrade"
-			position = { x = 30 y = 100 }
-			size = { width=100 height=60 }
-			clipping = no
-
-			iconType = {
-				name = "Background"	
-				position = { x=18 y=32 }				
-				spriteType ="GFX_variant_entry_bg"
-			}
-			
-			instantTextboxType = {
-				name = "label"
-				position = { x = -27 y = 7 }
-				font = "hoi_18mbs"
-				maxWidth = 160
-				maxHeight = 20
-				format = centre
-			}
-			
-			iconType = {
-				name = "line02"	
-				position = { x=102 y=34 }					
-				spriteType ="GFX_unit_details_line_bottomleft"
-			}	
-			
-			buttonType = {
-				name = "decrease_level"
-				quadTextureSprite ="GFX_naval_decrease_amount"
-				position = { x = 6 y = 30 }
-				clicksound = click_default
-			}
-			
-			instantTextboxType = {
-				name = "level"
-				position = { x = 50 y = 38 }
-				font = "hoi_18mbs"
-				maxWidth = 20
-				maxHeight = 20
-			}
-			
-			buttonType = {
-				name = "increase_level"
-				quadTextureSprite ="GFX_naval_increase_amount"
-				position = { x = 68 y = 30 }
-				clicksound = click_default
-			}
-		}
-		
-		containerWindowType = {
 			name = "RW_ART_attack_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -2115,7 +2114,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "RW_ART_engine_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -2135,9 +2134,59 @@ guiTypes = {
 			}
 			
 			iconType = {
-				name = "line04"	
-				position = { x=-112 y=34 }					
-				spriteType ="GFX_unit_details_line_bottomright"
+				name = "line02"	
+				position = { x=102 y=34 }					
+				spriteType ="GFX_unit_details_line_bottomleft"
+			}	
+			
+			buttonType = {
+				name = "decrease_level"
+				quadTextureSprite ="GFX_naval_decrease_amount"
+				position = { x = 6 y = 30 }
+				clicksound = click_default
+			}
+			
+			instantTextboxType = {
+				name = "level"
+				position = { x = 50 y = 38 }
+				font = "hoi_18mbs"
+				maxWidth = 20
+				maxHeight = 20
+			}
+			
+			buttonType = {
+				name = "increase_level"
+				quadTextureSprite ="GFX_naval_increase_amount"
+				position = { x = 68 y = 30 }
+				clicksound = click_default
+			}
+		}
+		containerWindowType = {
+			name = "RW_ART_prod_upgrade"
+			position = { x = 30 y = 30 } # Top Left
+			size = { width=100 height=60 }
+			clipping = no
+
+			iconType = {
+				name = "Background"	
+				position = { x=18 y=32 }				
+				spriteType ="GFX_variant_entry_bg"
+			}
+			
+			iconType = {
+				name = "line01"	
+				position = { x=102 y=44 }				
+				spriteType ="GFX_unit_details_line_topleft"
+				orientation = "UPPER_LEFT"
+			}	
+
+			instantTextboxType = {
+				name = "label"
+				position = { x = -27 y = 7 }
+				font = "hoi_18mbs"
+				maxWidth = 160
+				maxHeight = 20
+				format = centre
 			}
 			
 			buttonType = {
@@ -2163,7 +2212,7 @@ guiTypes = {
 			}
 		}
 	}
-	
+	# AIR UPGRADES
 	containerWindowType = {
 		name = "air_equipment_designer_view"
 		size = { width=100% height=100% }
@@ -2180,7 +2229,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "plane_reliability_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -2231,7 +2280,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "plane_range_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -2281,7 +2330,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "cv_plane_range_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -2331,7 +2380,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "plane_gun_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -2381,7 +2430,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "cv_plane_gun_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -2431,7 +2480,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "plane_naval_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -2481,7 +2530,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "cv_plane_naval_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -2531,7 +2580,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "plane_bomb_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -2581,7 +2630,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "plane_tac_bomb_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -2631,7 +2680,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "plane_cas_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -2681,7 +2730,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "plane_engine_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -2733,7 +2782,7 @@ guiTypes = {
 		#modify2
 		containerWindowType = {
 			name = "ZMM_AIR_prod_upgrade"
-			position = { x = 220 y = 110 }
+			position = { x = 220 y = 110 } # Center Bottom
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -2777,7 +2826,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ZMM_TRA_prod_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -2820,7 +2869,7 @@ guiTypes = {
 		}
 	}
 
-	
+	# SHIP UPGRADES
 	containerWindowType = {
 		name = "naval_equipment_designer_view"
 		size = { width=100% height=100% }
@@ -2837,7 +2886,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ship_reliability_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -2889,7 +2938,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ship_ASW_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -2939,7 +2988,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "sub_stealth_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -2989,7 +3038,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "ship_armor_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -3039,7 +3088,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "carrier_armor_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -3089,7 +3138,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ship_anti_air_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -3139,7 +3188,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "torpedo_ship_reliability_upgrade"
-			position = { x = 30 y = 100 }
+			position = { x = 30 y = 100 } # Bottom Left
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -3189,7 +3238,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ship_gun_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -3239,7 +3288,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ship_deckspace_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -3289,7 +3338,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ship_torpedo_upgrade"
-			position = { x = 30 y = 30 }
+			position = { x = 30 y = 30 } # Top Left
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -3339,7 +3388,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "sub_torpedo_upgrade"
-			position = { x = 409 y = 30 }
+			position = { x = 409 y = 30 } # Top Right
 			size = { width=100 height=60 }
 			clipping = no
 		
@@ -3389,7 +3438,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "ship_engine_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -3439,7 +3488,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "destroyer_engine_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -3490,7 +3539,7 @@ guiTypes = {
 	
 	containerWindowType = {
 			name = "sub_engine_upgrade"
-			position = { x = 409 y = 100 }
+			position = { x = 409 y = 100 } # Bottom Right
 			size = { width=100 height=60 }
 			clipping = no
 
@@ -3541,7 +3590,7 @@ guiTypes = {
 		#modify3
 		containerWindowType = {
 			name = "ZMM_NAVAL_prod_upgrade"
-			position = { x = 220 y = 110 }
+			position = { x = 220 y = 110 } # Center Bottom
 			size = { width=100 height=60 }
 			clipping = no
 
