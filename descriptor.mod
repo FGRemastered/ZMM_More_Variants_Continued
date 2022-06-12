@@ -1,4 +1,4 @@
-name="ZMM More Variants Updated + Conversion"
+name="ZMM More Variants Continued"
 tags={
 	"Balance"
 	"Gameplay"
@@ -6,3 +6,4 @@ tags={
 }
 picture="MoreVariants.png"
 supported_version="1.11.*"
+remote_file_id="2804659784"

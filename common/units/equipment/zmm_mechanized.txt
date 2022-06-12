@@ -16,7 +16,7 @@ equipments = {
 			mech_cost_upgrade
 		}
 		group_by = archetype
-		
+		can_convert_from = { mechanized_equipment }
 		interface_category = interface_category_land
 		
 		

@@ -35,7 +35,7 @@ equipments = {
 		{
 			train_equipment_1
 		}
-		armor_value = 10 # HP = BASE_TRAIN_HP + armor_value
+		armor_value = 5 # HP = BASE_TRAIN_HP + armor_value
 
 		priority = 10
 
@@ -59,7 +59,7 @@ equipments = {
 			train_equipment_1
 			train_equipment_2
 		}
-		armor_value = 5 # HP = BASE_TRAIN_HP + armor_value
+		armor_value = 2.5 # HP = BASE_TRAIN_HP + armor_value
 		build_cost_ic = 50
 		resources = {
 			steel = 1
