@@ -376,7 +376,6 @@ equipments = {
 		resources = {
 #			oil = 1
 			rubber = 1
-			tungsten = 2
 			steel = 1
 		}
 		fuel_consumption = 0.12

@@ -27,7 +27,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_light_battery dp_light_battery ship_light_medium_battery ship_medium_battery}
+				allowed_module_categories = { ship_light_battery ship_medium_battery}
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -47,7 +47,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+				allowed_module_categories = { ship_secondaries }
 			}
 			fixed_ship_armor_slot = {
 				required = no
@@ -59,11 +59,8 @@ equipments = {
 					ship_torpedo
 					ship_anti_air
 					ship_light_battery
-					dp_light_battery
-					ship_light_medium_battery
 					ship_medium_battery
 					ship_secondaries
-					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
 				}
@@ -74,8 +71,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_light_battery
-					dp_light_battery
-					ship_light_medium_battery
 					ship_medium_battery
 					ship_airplane_launcher
 					ship_mine_layer
@@ -122,7 +117,7 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 1
 		surface_visibility = 15
-		naval_speed = 27
+		naval_speed = 20
 		reliability = 0.80
 		
 		naval_range = 2500
@@ -138,8 +133,6 @@ equipments = {
 		}
 		
 		manpower = 600
-
-		naval_supremacy_factor = 2.3
 	}
 	
 	###### SPECIAL JAP TECH FROM FOCUS ######	
