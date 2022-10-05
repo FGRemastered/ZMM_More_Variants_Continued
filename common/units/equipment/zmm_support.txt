@@ -31,11 +31,4 @@ equipments = {
 		}
 	}
 
-	support_equipment_1 = {
-		year = 1918
-		can_convert_from = { support_equipment_1 }
-		archetype = support_equipment
-		priority = 20	
-	}
-
 }

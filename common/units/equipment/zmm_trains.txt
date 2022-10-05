@@ -15,7 +15,6 @@ equipments = {
 		upgrades = {
 			Train_armour_upgrade
 			Train_prod_upgrade
-			AA_AA_upgrade
 		}
 		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
 		
@@ -29,13 +28,16 @@ equipments = {
 		year = 1910
 
 		archetype = train_equipment
-		priority = 10
+		type = {
+			train
+		}
 		can_convert_from = 
 		{
 			train_equipment_1
 		}
 		armor_value = 5 # HP = BASE_TRAIN_HP + armor_value
 
+		priority = 10
 
 		build_cost_ic = 70
 		resources = {
@@ -48,6 +50,9 @@ equipments = {
 
 		archetype = train_equipment
 		parent = train_equipment_1
+		type = {
+			train
+		}
 		priority = 20
 		can_convert_from = 
 		{
@@ -65,7 +70,9 @@ equipments = {
 		year = 1936
 		archetype = train_equipment
 		parent = train_equipment_1
-		priority = 30
+		type = {
+			train
+		}
 		can_convert_from = 
 		{
 			train_equipment_1
@@ -73,7 +80,7 @@ equipments = {
 			train_equipment_3
 		}
 		armor_value = 250 # HP = BASE_TRAIN_HP + armor_value
-		air_attack = 18
+		priority = 30
 		build_cost_ic = 105
 		resources = {
 			steel = 2

@@ -23,9 +23,9 @@ equipments = {
 		can_convert_from = { motorized_equipment }
 		maximum_speed = 12
 		reliability = 0.8
-		hardness = 0.1
+		hardness = 0.2
 
-		breakthrough = 5
+		breakthrough = 10
 
 		#Space taken in convoy
 		lend_lease_cost = 5

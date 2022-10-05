@@ -9,17 +9,12 @@ equipments = {
 			}
 		}
 
-		allow_mission_type = {
-			strategic_bomber
-		}
-			
 		is_archetype = yes
 		is_buildable = no
-		is_convertable = yes
 		can_license = no
 		is_convertable = yes
 		type = missile
-		# type = strategic_bomber
+		type = strategic_bomber
 		group_by = type
 		sprite = missile_default
 		air_map_icon_frame = 9
@@ -57,6 +52,7 @@ equipments = {
 
 		archetype = guided_missile_equipment
 		is_buildable = yes
+		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -78,6 +74,7 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_1
 		is_buildable = yes
+		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -98,6 +95,7 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_2
 		is_buildable = yes
+		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -121,6 +119,7 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_3
 		is_buildable = yes
+		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -144,6 +143,7 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_4
 		is_buildable = yes
+		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -168,6 +168,7 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_5
 		is_buildable = yes
+		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -193,6 +194,7 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_6
 		is_buildable = yes
+		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
