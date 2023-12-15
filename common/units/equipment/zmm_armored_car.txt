@@ -58,7 +58,7 @@ equipments = {
 		archetype = armored_car_equipment
 		priority = 5
 		visual_level = 0
-		can_convert_from = 
+		can_convert_from =
 		{
 			gw_armored_car_equipment
 		}
@@ -91,7 +91,7 @@ equipments = {
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
-		can_convert_from = 
+		can_convert_from =
 		{
 			gw_armored_car_equipment
 			armored_car_equipment_1
@@ -108,7 +108,7 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
-		can_convert_from = 
+		can_convert_from =
 		{
 			gw_armored_car_equipment
 			armored_car_equipment_1
@@ -148,7 +148,7 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
-		can_convert_from = 
+		can_convert_from =
 		{
 			gw_armored_car_equipment
 			armored_car_equipment_1

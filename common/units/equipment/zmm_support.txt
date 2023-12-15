@@ -18,7 +18,6 @@ equipments = {
 			SUPP_reliability_upgrade
 			SUPP_prod_upgrade
 		}
-		
 		reliability = 0.8
 
 		#Space taken in convoy
@@ -29,6 +28,13 @@ equipments = {
 			aluminium = 1
 			steel = 2
 		}
+	}
+
+	support_equipment_1 = {
+		year = 1918
+		can_convert_from = { support_equipment_1 }
+		archetype = support_equipment
+		priority = 20	
 	}
 
 }

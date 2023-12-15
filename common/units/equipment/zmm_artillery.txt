@@ -20,8 +20,6 @@ equipments = {
 			ART_defence_upgrade
 			ART_prod_upgrade
 		}
-
-
 		#Misc Abilities
 		reliability = 0.8
 
@@ -52,7 +50,7 @@ equipments = {
 		archetype = artillery_equipment
 		priority = 50
 		visual_level = 0
-		can_convert_from = 
+		can_convert_from =
 		{
 			artillery_equipment_1
 		}
@@ -74,7 +72,7 @@ equipments = {
 			tungsten = 1
 			steel = 2
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			artillery_equipment_1
 			artillery_equipment_2
@@ -97,7 +95,7 @@ equipments = {
 			tungsten = 1
 			steel = 3
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			artillery_equipment_1
 			artillery_equipment_2
@@ -121,7 +119,7 @@ equipments = {
 			tungsten = 1
 			steel = 3
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			artillery_equipment_1
 			artillery_equipment_2
@@ -146,7 +144,7 @@ equipments = {
 			tungsten = 1
 			steel = 4
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			artillery_equipment_1
 			artillery_equipment_2
@@ -172,7 +170,7 @@ equipments = {
 			tungsten = 1
 			steel = 4
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			artillery_equipment_1
 			artillery_equipment_2
@@ -232,7 +230,7 @@ equipments = {
 		archetype = rocket_artillery_equipment
 		priority = 60
 		visual_level = 0
-		can_convert_from = 
+		can_convert_from =
 		{
 			rocket_artillery_equipment_1
 		}
@@ -254,7 +252,7 @@ equipments = {
 			tungsten = 2
 			steel = 1
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			rocket_artillery_equipment_1
 			rocket_artillery_equipment_2
@@ -277,7 +275,7 @@ equipments = {
 			tungsten = 3
 			steel = 1
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			rocket_artillery_equipment_1
 			rocket_artillery_equipment_2
@@ -301,7 +299,7 @@ equipments = {
 			tungsten = 3
 			steel = 1
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			rocket_artillery_equipment_1
 			rocket_artillery_equipment_2
@@ -326,7 +324,7 @@ equipments = {
 			tungsten = 3
 			steel = 2
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			rocket_artillery_equipment_1
 			rocket_artillery_equipment_2
@@ -376,6 +374,7 @@ equipments = {
 		resources = {
 #			oil = 1
 			rubber = 1
+			tungsten = 2
 			steel = 1
 		}
 		fuel_consumption = 0.12
@@ -386,7 +385,7 @@ equipments = {
 		archetype = motorized_rocket_equipment
 		priority = 70
 		visual_level = 0
-		can_convert_from = 
+		can_convert_from =
 		{
 			motorized_rocket_equipment_1
 		}

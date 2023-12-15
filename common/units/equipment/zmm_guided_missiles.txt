@@ -9,12 +9,16 @@ equipments = {
 			}
 		}
 
+		allow_mission_type = {
+			strategic_bomber
+		}
+			
 		is_archetype = yes
 		is_buildable = no
-		can_license = no
 		is_convertable = yes
+		can_license = no
 		type = missile
-		type = strategic_bomber
+		# type = strategic_bomber
 		group_by = type
 		sprite = missile_default
 		air_map_icon_frame = 9
@@ -52,7 +56,6 @@ equipments = {
 
 		archetype = guided_missile_equipment
 		is_buildable = yes
-		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -62,7 +65,7 @@ equipments = {
 		air_bombing = 300
 		
 		build_cost_ic = 36
-		can_convert_from = 
+		can_convert_from =
 		{
 			guided_missile_equipment_1
 		}
@@ -74,7 +77,6 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_1
 		is_buildable = yes
-		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -82,7 +84,7 @@ equipments = {
 		maximum_speed = 5760
 		air_agility = 10
 		air_bombing = 450
-		can_convert_from = 
+		can_convert_from =
 		{
 			guided_missile_equipment_1
 			guided_missile_equipment_2
@@ -95,7 +97,6 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_2
 		is_buildable = yes
-		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -105,7 +106,7 @@ equipments = {
 		air_bombing = 600
 		
 		build_cost_ic = 44
-		can_convert_from = 
+		can_convert_from =
 		{
 			guided_missile_equipment_1
 			guided_missile_equipment_2
@@ -119,7 +120,6 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_3
 		is_buildable = yes
-		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -129,7 +129,7 @@ equipments = {
 		air_bombing = 800
 		
 		build_cost_ic = 44
-		can_convert_from = 
+		can_convert_from =
 		{
 			guided_missile_equipment_1
 			guided_missile_equipment_2
@@ -143,7 +143,6 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_4
 		is_buildable = yes
-		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -153,7 +152,7 @@ equipments = {
 		air_bombing = 1000
 		
 		build_cost_ic = 44
-		can_convert_from = 
+		can_convert_from =
 		{
 			guided_missile_equipment_1
 			guided_missile_equipment_2
@@ -168,7 +167,6 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_5
 		is_buildable = yes
-		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -178,7 +176,7 @@ equipments = {
 		air_bombing = 1200
 		
 		build_cost_ic = 44
-		can_convert_from = 
+		can_convert_from =
 		{
 			guided_missile_equipment_1
 			guided_missile_equipment_2
@@ -194,7 +192,6 @@ equipments = {
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_6
 		is_buildable = yes
-		is_convertable = yes
 		one_use_only = yes
 		sprite = missile_default
 		
@@ -204,7 +201,7 @@ equipments = {
 		air_bombing = 1400
 		
 		build_cost_ic = 44
-		can_convert_from = 
+		can_convert_from =
 		{
 			guided_missile_equipment_1
 			guided_missile_equipment_2

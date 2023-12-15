@@ -31,7 +31,7 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 4
 		hard_attack = 20
-		ap_attack = 85
+		ap_attack = 60
 		air_attack = 0
 
 		#Space taken in convoy
@@ -49,7 +49,7 @@ equipments = {
 		archetype = anti_tank_equipment
 		priority = 90
 		visual_level = 0
-		can_convert_from = 
+		can_convert_from =
 		{
 			anti_tank_equipment_1
 		}
@@ -63,14 +63,15 @@ equipments = {
 		visual_level = 1
 		
 		hard_attack = 22
-		ap_attack = 100
+		ap_attack = 90
 		
 		build_cost_ic = 5
 		resources = {
 			tungsten = 2
+			chromium = 1
 			steel = 2
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			anti_tank_equipment_1
 			anti_tank_equipment_2
@@ -90,9 +91,10 @@ equipments = {
 		build_cost_ic = 6
 		resources = {
 			tungsten = 2
+			chromium = 1
 			steel = 3
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			anti_tank_equipment_1
 			anti_tank_equipment_2
@@ -113,9 +115,10 @@ equipments = {
 		build_cost_ic = 6.5
 		resources = {
 			tungsten = 2
+			chromium = 1
 			steel = 3
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			anti_tank_equipment_1
 			anti_tank_equipment_2
@@ -137,9 +140,10 @@ equipments = {
 		build_cost_ic = 7
 		resources = {
 			tungsten = 3
+			chromium = 2
 			steel = 3
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			anti_tank_equipment_1
 			anti_tank_equipment_2
@@ -162,9 +166,10 @@ equipments = {
 		build_cost_ic = 7.5
 		resources = {
 			tungsten = 3
+			chromium = 2
 			steel = 3
 		}
-		can_convert_from = 
+		can_convert_from =
 		{
 			anti_tank_equipment_1
 			anti_tank_equipment_2
